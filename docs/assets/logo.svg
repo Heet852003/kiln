@@ -1,0 +1,52 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke="#7c2d12" stroke-width="10" stroke-linecap="round">
+    <line x1="88" y1="18" x2="88" y2="44"/>
+    <line x1="128" y1="18" x2="128" y2="44"/>
+    <line x1="168" y1="18" x2="168" y2="44"/>
+    <line x1="88" y1="212" x2="88" y2="238"/>
+    <line x1="128" y1="212" x2="128" y2="238"/>
+    <line x1="168" y1="212" x2="168" y2="238"/>
+    <line x1="18" y1="88" x2="44" y2="88"/>
+    <line x1="18" y1="128" x2="44" y2="128"/>
+    <line x1="18" y1="168" x2="44" y2="168"/>
+    <line x1="212" y1="88" x2="238" y2="88"/>
+    <line x1="212" y1="128" x2="238" y2="128"/>
+    <line x1="212" y1="168" x2="238" y2="168"/>
+  </g>
+
+  <rect x="40" y="40" width="176" height="176" rx="36" fill="url(#chipGrad)" stroke="#7c2d12" stroke-width="4"/>
+
+  <g fill="#7c2d12" opacity="0.35">
+    <rect x="62" y="62" width="34" height="34" rx="7"/>
+    <rect x="160" y="62" width="34" height="34" rx="7"/>
+    <rect x="62" y="160" width="34" height="34" rx="7"/>
+    <rect x="160" y="160" width="34" height="34" rx="7"/>
+  </g>
+
+  <path d="M128 66
+           C140 88 166 104 166 140
+           C166 166 149 184 128 184
+           C107 184 90 166 90 140
+           C90 120 102 108 110 98
+           C112 112 118 120 126 122
+           C122 102 124 82 128 66 Z"
+        fill="url(#flameGrad)" stroke="#7c2d12" stroke-width="5" stroke-linejoin="round"/>
+
+  <g fill="#c2410c">
+    <rect x="113" y="138" width="12" height="12" rx="2.5"/>
+    <rect x="131" y="138" width="12" height="12" rx="2.5"/>
+    <rect x="113" y="156" width="12" height="12" rx="2.5"/>
+    <rect x="131" y="156" width="12" height="12" rx="2.5"/>
+  </g>
+</svg>
